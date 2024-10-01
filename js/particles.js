@@ -1,5 +1,3 @@
-/* ---- particles.js config ---- */
-
 particlesJS("particles-js", {
   "particles": {
     "number": {
@@ -10,16 +8,16 @@ particlesJS("particles-js", {
       }
     },
     "color": {
-      "value": "#d33682"
+      "value": "#ca616a"
     },
     "shape": {
       "type": "polygon",
       "stroke": {
         "width": 0,
-        "color": "#000000"
+        "color": "#ca1b1b"
       },
       "polygon": {
-        "nb_sides": 7
+        "nb_sides": 5
       },
       "image": {
         "src": "img/github.svg",
@@ -28,31 +26,31 @@ particlesJS("particles-js", {
       }
     },
     "opacity": {
-      "value": 0.3,
+      "value": 0.5,
       "random": true,
       "anim": {
-        "enable": false,
-        "speed": 0.8,
+        "enable": true,
+        "speed": 1,
         "opacity_min": 0.1,
         "sync": false
       }
     },
     "size": {
-      "value": 12,
-      "random": true,
+      "value": 5,
+      "random": false,
       "anim": {
         "enable": false,
-        "speed": 20,
+        "speed": 40,
         "size_min": 0.1,
         "sync": false
       }
     },
     "line_linked": {
       "enable": true,
-      "distance": 100,
-      "color": "#00ffeb",
+      "distance": 150,
+      "color": "#ffffff",
       "opacity": 0.4,
-      "width": 3
+      "width": 1.5
     },
     "move": {
       "enable": true,
@@ -77,7 +75,7 @@ particlesJS("particles-js", {
         "mode": "repulse"
       },
       "onclick": {
-        "enable": false,
+        "enable": true,
         "mode": "push"
       },
       "resize": true
