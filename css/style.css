@@ -1,0 +1,106 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.5;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  background: #000010;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Layout */
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #000010;
+}
+
+#intro {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+/* Typography */
+h1 {
+  font-family: 'Syncopate', sans-serif;
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 0.05em;
+  margin-bottom: 1rem;
+  position: relative;
+  display: inline-block;
+}
+
+h1::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 100%;
+  height: 3px;
+  background-color: #ffffff;
+}
+
+/* Links and icons */
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.resume-link img {
+  vertical-align: middle;
+}
+
+nav {
+  margin-top: 1rem;
+}
+
+nav a {
+  font-size: 2em;
+  margin: 0 0.5rem;
+}
+
+/* Responsive design */
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  nav a {
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  nav a {
+    font-size: 1.2em;
+  }
+}
